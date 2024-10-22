@@ -1,0 +1,38 @@
+galaxy_info:
+  author: Nho Luong
+  description: C++ development tools and IDE. 
+  company: Nho Luong
+  min_ansible_version: 2.1
+
+  github_branch: master
+
+  platforms:
+  - name: Fedora
+    versions:
+    - 24
+  - name: Ubuntu
+    versions:
+  #  - all
+  #  - lucid
+  #  - maverick
+  #  - natty
+  #  - oneiric
+  #  - precise
+  #  - quantal
+  #  - raring
+  #  - saucy
+  #  - trusty
+  #  - utopic
+  #  - vivid
+  #  - wily
+    - xenial
+
+  galaxy_tags:
+      - development
+      - C
+      - C++
+      - JetBrains
+      - CLion
+
+dependencies:
+    - { role: kurron.jdk }
